@@ -1,102 +1,100 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
-body{
-    align-content: end;
-    justify-content: center;
-    display: grid;
-    min-height: 100vh;
-   
+body {
+  align-content: end;
+  justify-content: center;
+  display: grid;
+  min-height: 100vh;
 }
-footer{
-    position: relative;
+footer {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 50px 100px;
+  background-color: rgb(254 243 199);
+}
+footer .container .main {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+footer .container .part2 p {
+  color: #555;
+  margin-top: 10px;
+}
+footer .container .sec {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 50px);
+}
+footer .container .sec a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: #333;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border-radius: 20px;
+}
+footer .container .sec a i {
+  color: #fff;
+  font-size: 18px;
+}
+footer .container .quicklinks ul li a {
+  color: #555;
+  margin-bottom: 10px;
+  display: inline-block;
+  text-decoration: none;
+}
+.line1 {
+  width: 100%;
+  color: #555;
+  text-align: center;
+  padding: 20px 100px 30px;
+  background-color: rgb(254 243 199);
+}
+.line2 hr {
+  border: 3px solid #d3d3dd;
+}
+input[type="text"] {
+  padding: 5px 5px;
+  border: 1px solid #080202;
+  outline: none;
+}
+@media (max-width: 991px) {
+  footer {
+    padding: 40px;
+  }
+  footer .container .main {
     width: 100%;
-    height: auto;
-    padding: 50px 100px;
-    background-color: rgb(254 243 199);
-}
-footer .container .main{
-    width: 100%;
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
-    grid-gap:20px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  .line1 {
+    padding: 20px 40px 30px;
+  }
 }
-footer .container .part2 p{
-    color: #555;
-    margin-top: 10px;
-}
-footer .container .sec{
-    margin-top: 20px;
+@media (max-width: 768px) {
+  input[type="text"] {
     display: grid;
-    grid-template-columns: repeat(4, 50px);
-}
-footer .container .sec a{
-    display: inline-block;
-    width: 35px;
-    height: 35px;
-    background-color: #333;
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    border-radius: 20px;
-}
-footer .container .sec a i{
-    color: #fff;
-    font-size: 18px;
-}
-footer .container .quicklinks ul li a{
-    color: #555;
     margin-bottom: 10px;
-    display: inline-block;
-    text-decoration: none;
-}
-.line1{
-    width: 100%;
-    color: #555;
-    text-align: center;
-    padding: 20px 100px 30px;
-    background-color: rgb(254 243 199);
-}
-.line2 hr{
-    border: 3px solid #d3d3dd;
-}
-input[type=text] {
-    padding: 5px 5px;
+    grid-template-columns: repeat(1, 1fr);
     border: 1px solid #080202;
     outline: none;
-}
-@media (max-width:991px){
-    footer{
-        padding: 40px;
-    }
-    footer .container .main{
-        width: 100%;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap:20px;
-    }
-    .line1{
-        padding: 20px 40px 30px;
-    }
-    
-}
-@media (max-width:768px){
-    input[type=text] {
-        display: grid;
-        margin-bottom: 10px;
-        grid-template-columns: repeat(1, 1fr) ;
-        border: 1px solid #080202;
-        outline: none;
-    }
-    footer .container .main{
-        width: 100%;
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap:20px;
-    }
+  }
+  footer .container .main {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+  }
 }
