@@ -1,153 +1,281 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://kit.fontawesome.com/7ed9808373.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
     <!-- <link rel="stylesheet" href="testimonial.css"> -->
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Learning project</title>
-</head>
-<body>
-    <h1>Home page</h1>
-     <!-- Hero section -->
-     <section class="hero">       
-        <!-- left -->
-        <div class="left">
-            <h1>Modern Interior <br>
-            Design Studio</h1>  
-            <button class="btn1">Shop Now</button>
-            <button class="btn2">Explore</button>
+  </head>
+  <body>
+    <!-- Navbar Section-->
+    <div class="banner">
+      <div class="navbar">
+        <a href="#logo" class="logo">FurniExpert</a>
+        <ul class="navLinks">
+          <li><a class="active">Home</a></li>
+          <li><a href="#home">About us</a></li>
+          <li><a href="#home">Blog</a></li>
+          <li><a href="#home">Contact us</a></li>
+        </ul>
+        <div class="icons">
+          <div class="toggle_btn">
+            <i class="fas fa-bars"></i>
+          </div>
+          <a href="#" class="far fa-user"></a>
+          <a href="#" class="fas fa-shopping-cart"></a>
         </div>
-        <!-- right -->
-            <img src="Images/couch 1.png" alt="">
-</section>
+      </div>
+
+      <div class="dropdown_menu open">
+        <li><a class="active">Home</a></li>
+        <li><a href="#home">About us</a></li>
+        <li><a href="#home">Blog</a></li>
+        <li><a href="#home">Contact us</a></li>
+      </div>
+      <div class="image1">
+        <img
+          src="https://images.unsplash.com/photo-1540574163026-643ea20ade25?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c29mYSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D"
+          alt="np"
+          srcset=""
+        />
+      </div>
+      <div class="container1">
+        <div class="content">
+          <h1>Modern Interior Design Studio</h1>
+          <div class="button">
+            <button type="button"><span></span>Shop Now</button>
+            <button type="button"><span></span>Explore</button>
+          </div>
+        </div>
+        <div class="image">
+          <img
+            src="https://images.unsplash.com/photo-1540574163026-643ea20ade25?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c29mYSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D"
+            alt="np"
+            srcset=""
+          />
+        </div>
+      </div>
+    </div>
+
+    <!--End here-->
     <!-- testinmonials -->
     <div class="testimonials">
-        <button class="previous"></button>
-        <div class="card">
-            <div class="cardbody">
-                <div class="heading"><h1>Testimonials</h1></div>
-            <p>"As an interior designer, I demand the best for my clients, and FurniExpert consistently delivers. The curated collection showcases a perfect blend of aesthetics and functionality. The diverse styles cater to every design preference, making it easy for me to find the ideal pieces for my projects. FurniExpert is now an indispensable resource in my creative toolkit."</p>
-            <div class="subcard">
-                <image class="profile" src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=300"></image>
-                <p>Rajesh M. </p>
-                <p>Interior Designer</p>
-            </div>
-            </div>
+      <button class="previous"></button>
+      <div class="card">
+        <div class="cardbody">
+          <div class="heading"><h1>Testimonials</h1></div>
+          <p>
+            "As an interior designer, I demand the best for my clients, and
+            FurniExpert consistently delivers. The curated collection showcases
+            a perfect blend of aesthetics and functionality. The diverse styles
+            cater to every design preference, making it easy for me to find the
+            ideal pieces for my projects. FurniExpert is now an indispensable
+            resource in my creative toolkit."
+          </p>
+          <div class="subcard">
+            <image
+              class="profile"
+              src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=300"
+            ></image>
+            <p>Rajesh M.</p>
+            <p>Interior Designer</p>
+          </div>
         </div>
-        <div class="card">
-            <div class="cardbody">
-                <div class="heading"><h1>Testimonials</h1></div>
-                <p>"FurniExpert has redefined my online furniture shopping experience. The user-friendly website, detailed product descriptions, and stunning visuals helped me make informed choices. The quality of the furniture exceeded my expectations, and the affordable prices allowed me to furnish my entire home without breaking the bank. FurniExpert is my trusted destination for quality and affordability."</p>
-            <div class="subcard">
-                <image class="profile" src="https://images.pexels.com/photos/1542085/pexels-photo-1542085.jpeg?auto=compress&cs=tinysrgb&w=600"></image>
-                <p>Lisa S. </p>
-                <p>Happy Customer</p>
-            </div>
-            </div>
+      </div>
+      <div class="card">
+        <div class="cardbody">
+          <div class="heading"><h1>Testimonials</h1></div>
+          <p>
+            "FurniExpert has redefined my online furniture shopping experience.
+            The user-friendly website, detailed product descriptions, and
+            stunning visuals helped me make informed choices. The quality of the
+            furniture exceeded my expectations, and the affordable prices
+            allowed me to furnish my entire home without breaking the bank.
+            FurniExpert is my trusted destination for quality and
+            affordability."
+          </p>
+          <div class="subcard">
+            <image
+              class="profile"
+              src="https://images.pexels.com/photos/1542085/pexels-photo-1542085.jpeg?auto=compress&cs=tinysrgb&w=600"
+            ></image>
+            <p>Lisa S.</p>
+            <p>Happy Customer</p>
+          </div>
         </div>
-        <div class="card">
-            <div class="cardbody">
-                <div class="heading"><h1>Testimonials</h1></div>
-            <p>"As a tech enthusiast, I appreciate the seamless online experience FurniExpert provides. The intuitive website design, 360-degree product views, and accurate dimensions ensure I get exactly what I see. The hassle-free ordering process and on-time delivery make FurniExpert stand out in the crowded online furniture market. My home is now furnished with style, thanks to FurniExpert."</p>
-            <div class="subcard">
-                <image class="profile" src="https://images.pexels.com/photos/1040880/pexels-photo-1040880.jpeg?auto=compress&cs=tinysrgb&w=400"></image>
-                <p>David P.</p>
-                <p>Interior designer</p>
-            </div>
-            </div>
+      </div>
+      <div class="card">
+        <div class="cardbody">
+          <div class="heading"><h1>Testimonials</h1></div>
+          <p>
+            "As a tech enthusiast, I appreciate the seamless online experience
+            FurniExpert provides. The intuitive website design, 360-degree
+            product views, and accurate dimensions ensure I get exactly what I
+            see. The hassle-free ordering process and on-time delivery make
+            FurniExpert stand out in the crowded online furniture market. My
+            home is now furnished with style, thanks to FurniExpert."
+          </p>
+          <div class="subcard">
+            <image
+              class="profile"
+              src="https://images.pexels.com/photos/1040880/pexels-photo-1040880.jpeg?auto=compress&cs=tinysrgb&w=400"
+            ></image>
+            <p>David P.</p>
+            <p>Interior designer</p>
+          </div>
         </div>
-        <div class="card">
-            <div class="cardbody">
-                <div class="heading"><h1>Testimonials</h1></div>
-            <p>"FurniExpert has truly elevated my home décor game! The exquisite range of furniture, from stylish sofas to elegant dining sets, exceeded my expectations. The seamless online shopping experience and prompt delivery made FurniExpert my go-to destination for all things furniture. I've transformed my living space, thanks to FurniExpert's top-notch quality and impeccable service."</p>
-            <div class="subcard">
-                <image class="profile" src="https://images.unsplash.com/photo-1463453091185-61582044d556?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cmFuZG9tJTIwcGVyc29ufGVufDB8fDB8fHww"></image>
-                <p>Samantha K. </p>
-                <p>Home Enthusiast</p>
-            </div>
-            </div>
+      </div>
+      <div class="card">
+        <div class="cardbody">
+          <div class="heading"><h1>Testimonials</h1></div>
+          <p>
+            "FurniExpert has truly elevated my home décor game! The exquisite
+            range of furniture, from stylish sofas to elegant dining sets,
+            exceeded my expectations. The seamless online shopping experience
+            and prompt delivery made FurniExpert my go-to destination for all
+            things furniture. I've transformed my living space, thanks to
+            FurniExpert's top-notch quality and impeccable service."
+          </p>
+          <div class="subcard">
+            <image
+              class="profile"
+              src="https://images.unsplash.com/photo-1463453091185-61582044d556?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cmFuZG9tJTIwcGVyc29ufGVufDB8fDB8fHww"
+            ></image>
+            <p>Samantha K.</p>
+            <p>Home Enthusiast</p>
+          </div>
         </div>
-        <div class="card">
-            <div class="cardbody">
-                <div class="heading"><h1>Testimonials</h1></div>
-            <p>"FurniExpert has earned my loyalty with its exceptional products and outstanding customer service. From the moment I browsed the website to the day my furniture was delivered, the entire journey was delightful. The responsive customer support team addressed my queries promptly, adding a personal touch to the experience. FurniExpert has not just furnished my home; it has won a customer for life."</p>
-            <div class="subcard">
-                <image class="profile" src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=600"></image>
-                <p>Priya A.</p>
-                <p>Customer for Life</p>
-            </div>
-            </div>
+      </div>
+      <div class="card">
+        <div class="cardbody">
+          <div class="heading"><h1>Testimonials</h1></div>
+          <p>
+            "FurniExpert has earned my loyalty with its exceptional products and
+            outstanding customer service. From the moment I browsed the website
+            to the day my furniture was delivered, the entire journey was
+            delightful. The responsive customer support team addressed my
+            queries promptly, adding a personal touch to the experience.
+            FurniExpert has not just furnished my home; it has won a customer
+            for life."
+          </p>
+          <div class="subcard">
+            <image
+              class="profile"
+              src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=600"
+            ></image>
+            <p>Priya A.</p>
+            <p>Customer for Life</p>
+          </div>
         </div>
-        <button class="next">></button>
-        <div class="indicators"></div>
+      </div>
+      <button class="next">></button>
+      <div class="indicators"></div>
     </div>
     <script src="main.js"></script>
     <!-- footer start -->
     <footer>
-        <div class="container">
-            <div class="part1 ">
-                <i class="fa-regular fa-envelope"></i>  Subscribe to Newsletter<br>
-                <form>
-                    <input class="rounded-md " type="text" placeholder="Enter your name">
-                    <input class="rounded-md " type="text" placeholder="Enter your email">
-                    <i class="fa-solid fa-paper-plane fa-border"  style="--fa-border-width: 1px; --fa-border-color:  black; --fa-border-padding:9px; --fa-border-radius: 0.375rem"></i>
-                </form>
-            </div>
-            <p class="font-bold text-xl mt-20">FurniExpert</p>
-            <div class="main ">
-                <div class="part2">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto sit reprehenderit sequi commodi dolorem veritatis eum aspernatur molestiae animi magnam assumenda eos </p>
-                    
-                    <ul class="sec">
-                        <li><a href="#"><i class="fa-brands fa-facebook "></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                    </ul>
-                </div>
-                <div class="quicklinks">
-                    <ul>
-                        <li><a href="#">About us</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Blogs</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                    </ul>
-                </div>
-                <div class="quicklinks">
-                    <ul>
-                        <li><a href="#">About us</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Blogs</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                    </ul>
-                </div>
-                <div class="quicklinks">
-                    <ul>
-                        <li><a href="#">About us</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Blogs</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                    </ul>
-                </div>
-                <div class="quicklinks">
-                    <ul>
-                        <li><a href="#">About us</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Blogs</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                    </ul>
-                </div>
-            </div>  
+      <div class="container">
+        <div class="part1">
+          <i class="fa-regular fa-envelope"></i> Subscribe to Newsletter<br />
+          <form>
+            <input
+              class="rounded-md"
+              type="text"
+              placeholder="Enter your name"
+            />
+            <input
+              class="rounded-md"
+              type="text"
+              placeholder="Enter your email"
+            />
+            <i
+              class="fa-solid fa-paper-plane fa-border"
+              style="
+                --fa-border-width: 1px;
+                --fa-border-color: black;
+                --fa-border-padding: 9px;
+                --fa-border-radius: 0.375rem;
+              "
+            ></i>
+          </form>
         </div>
+        <p class="font-bold text-xl mt-20">FurniExpert</p>
+        <div class="main">
+          <div class="part2">
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto
+              sit reprehenderit sequi commodi dolorem veritatis eum aspernatur
+              molestiae animi magnam assumenda eos
+            </p>
+
+            <ul class="sec">
+              <li>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="quicklinks">
+            <ul>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Blogs</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="quicklinks">
+            <ul>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Blogs</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="quicklinks">
+            <ul>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Blogs</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="quicklinks">
+            <ul>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Blogs</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </footer>
-    <div class="line2"><hr></div>     
+    <div class="line2"><hr /></div>
     <div class="line1">
-        <p>Terms & Condition, Privacy Policy. All Rights Reserved.</p>
-    </div> 
-   
+      <p>Terms & Condition, Privacy Policy. All Rights Reserved.</p>
+    </div>
+
     <!-- footer end -->
-</body>
+  </body>
 </html>
