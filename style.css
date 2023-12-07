@@ -241,7 +241,12 @@ html {
   height: 3.125rem;
   text-align: center;
 }
-
+.btn3:hover {
+  scale: 1.2;
+  background-color: seashell;
+  color: black;
+  font-weight: bolder;
+}
 .sec2-price {
   text-align: center;
 }
@@ -442,7 +447,12 @@ html {
   font-weight: 500;
   line-height: 1.75rem; /* 175% */
 }
-
+.sec4-right-btn button:hover {
+  scale: 1.2;
+  background: seashell;
+  color: black;
+  font-weight: bolder;
+}
 /* section5 */
 .section5 {
   display: flex;
