@@ -1,3 +1,4 @@
+document.querySelector(".review").style.display = "flex";
 let cards = document.querySelectorAll(".card");
 let previous = document.querySelector(".previous");
 let next = document.querySelector(".next");
