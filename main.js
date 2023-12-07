@@ -1,4 +1,6 @@
-document.querySelector(".review").style.display = "flex";
+document.querySelectorAll(".review").forEach(review=>{
+  review.style.display = "flex";
+});
 let cards = document.querySelectorAll(".card");
 let previous = document.querySelector(".previous");
 let next = document.querySelector(".next");
@@ -50,3 +52,8 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+// recent blogs
+let row = document.querySelector(".row2");
+document.querySelector(".morelink").addEventListener("click",function(){
+    row.style.display = "flex";
+})
