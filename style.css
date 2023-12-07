@@ -14,7 +14,7 @@ html {
 /* navbar and after that section */
 .banner {
   width: 100%;
-  height: 100vh;
+  height: 150vh;
   background: #b8bc86;
   background-size: cover;
   background-position: center;
@@ -610,7 +610,6 @@ html {
   align-items: center;
   margin: 50px auto;
   padding-bottom: 35px;
-
 }
 .previous,
 .next {
@@ -669,7 +668,7 @@ html {
   justify-content: center;
   align-items: center;
 }
-.review{
+.review {
   width: 100%;
   height: 60%;
   display: flex;
@@ -685,8 +684,8 @@ html {
   align-items: center;
   text-align: center;
 }
-.subcard p{
-  font-size: .8em;
+.subcard p {
+  font-size: 0.8em;
 }
 .profile {
   width: 5em;
@@ -703,15 +702,15 @@ html {
     font-size: 0.7rem;
     line-height: 1.5em;
   }
-  .review{
+  .review {
     height: 70%;
   }
-  .subcard{
+  .subcard {
     height: 20%;
   }
 }
 /* recent blogs */
-.blogs{
+.blogs {
   width: 70%;
   display: flex;
   flex-direction: column;
@@ -721,25 +720,25 @@ html {
   margin-bottom: 50px;
 }
 
-.heado{
+.heado {
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.heado .heading{
+.heado .heading {
   font-size: 2em;
 }
-.morelink{
+.morelink {
   cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.morelink:hover{
+.morelink:hover {
   text-decoration: underline;
 }
-.row{
+.row {
   width: 100%;
   height: 20rem;
   display: flex;
@@ -747,38 +746,39 @@ html {
   align-items: center;
   justify-content: space-between;
 }
-.row2, .row3{
+.row2,
+.row3 {
   display: none;
 }
-.blogcard{
+.blogcard {
   width: 30%;
   height: 100%;
 }
-.blogcard .imago{
+.blogcard .imago {
   width: 100%;
   height: 80%;
-  background-size:cover;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   border-radius: 10%;
 }
-.text .title{
+.text .title {
   font-size: 1em;
 }
-.text .author{
+.text .author {
   font-size: 0.9em;
 }
-@media only screen and (max-width: 750px){
-  .blogs{
+@media only screen and (max-width: 750px) {
+  .blogs {
     width: 90%;
   }
-  .row{
+  .row {
     height: 10rem;
   }
-  .text .title{
+  .text .title {
     font-size: 10px;
   }
-  .text .author{
+  .text .author {
     font-size: 10px;
   }
 }
@@ -860,13 +860,13 @@ input[type="text"] {
     display: none;
   }
   .image1 {
-    padding-top: 35%;
+    padding-top: -10%;
+    padding-left: 40%;
+    padding-bottom: 30%;
     display: block;
     position: absolute;
     justify-content: center;
     align-items: center;
-    padding-left: 28%;
-    padding-right: 20%;
   }
   .image1 img {
     width: 100%;
@@ -893,6 +893,27 @@ input[type="text"] {
     display: block;
     height: auto;
     transition: none;
+    font-size: 0.7rem;
+    padding-bottom: 0%;
+    padding-top: 0%;
+  }
+  .navbar .icons a {
+    margin-left: 0.5rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    width: 2.5rem;
+    font-size: 1rem;
+    padding-left: 2%;
+  }
+  .icons {
+    padding-left: 10%;
+  }
+  .navbar .toggle_btn {
+    margin-left: 0.5rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    width: 2.5rem;
+    font-size: 1rem;
   }
 }
 @media (max-width: 991px) {
@@ -915,7 +936,10 @@ input[type="text"] {
     width: 100%;
   }
   .image1 {
-    padding-top: 40%;
+    padding-top: 30%;
+  }
+  .image1 img {
+    width: 40%;
   }
 }
 @media (max-width: 768px) {
@@ -927,11 +951,14 @@ input[type="text"] {
     align-items: center;
     padding-right: 30%;
   }
+  .image1 img {
+    width: 100%;
+  }
   .content {
-    padding-top: 75%;
+    padding-top: 80%;
     text-align: center;
     justify-content: center;
-    padding-left: 0%;
+    padding-left: 5%;
     font-size: 1rem;
   }
   .content h1 {
@@ -960,12 +987,13 @@ input[type="text"] {
 }
 @media screen and (max-width: 670px) {
   .image1 {
-    padding-top: 60%;
+    padding-top: 45%;
     display: block;
     position: relative;
   }
   .content {
     padding-left: 0%;
+    padding-top: 100%;
   }
   .content .button {
     padding-right: 20%;
@@ -973,13 +1001,16 @@ input[type="text"] {
 }
 @media screen and (max-width: 540px) {
   .image1 {
-    padding-top: 50%;
+    padding-top: 60%;
   }
   .navbar {
     padding-left: 0%;
   }
   .icons {
     padding-left: 3%;
+  }
+  .content {
+    padding-top: 140%;
   }
 }
 @media screen and (max-width: 430px) {
@@ -991,24 +1022,39 @@ input[type="text"] {
     padding-left: 0%;
   }
   .image1 {
-    padding-top: 90%;
+    padding-top: 80%;
     display: block;
-    position: relative;
+    position: absolute;
     justify-content: center;
     align-items: center;
-    padding-right: 20%;
+    padding-right: 30%;
   }
   .content {
-    padding-top: 130%;
+    padding-top: 200%;
     text-align: center;
     justify-content: center;
-    padding-left: 0%;
-    font-size: 0.5rem;
+  }
+  .content h1 {
+    font-size: 1rem;
   }
   .button {
     width: 100%;
-    font-size: 0.5rem;
     padding-right: 20%;
+  }
+  .button button {
+    width: 200px;
+    font-size: 1rem;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
   }
   .navbar .icons a {
     margin-left: 0.5rem;
@@ -1031,55 +1077,68 @@ input[type="text"] {
   .dropdown_menu.open {
     font-size: 1.5rem;
   }
-  @media screen and (max-width: 375px) {
-    .navbar .logo {
-      padding-left: 0%;
-      font-size: 1.8rem;
-    }
-    .navbar {
-      padding: 5%;
-      padding-left: 0%;
-    }
-    .dropdown_menu.open {
-      font-size: 1.2rem;
-    }
-    .content h1 {
-      font-size: 1rem;
-    }
-    .content {
-      padding-top: 120%;
-    }
-    .image1 {
-      padding-top: 100%;
-    }
+}
+@media screen and (max-width: 375px) {
+  .navbar .logo {
+    padding-left: 0%;
+    font-size: 1.8rem;
   }
-  @media screen and (max-width: 280px) {
-    .navbar .logo {
-      font-size: 1rem;
-    }
-    .dropdown_menu.open {
-      font-size: 1rem;
-    }
-    .image1 {
-      padding-top: 100%;
-    }
-    .navbar .icons a {
-      height: 1.5rem;
-      line-height: 1.5rem;
-      width: 1.5rem;
-      font-size: 0.8rem;
-    }
-    .navbar .toggle_btn {
-      height: 1.5rem;
-      line-height: 1.5rem;
-      width: 1.5rem;
-      font-size: 0.8rem;
-    }
-    .dropdown_menu.open {
-      font-size: 0.8rem;
-    }
-    .image1 {
-      padding-top: 140%;
-    }
+  .navbar {
+    padding: 5%;
+    padding-left: 0%;
+  }
+  .dropdown_menu.open {
+    font-size: 1.2rem;
+  }
+  .content h1 {
+    font-size: 1rem;
+  }
+  .content {
+    padding-top: 180%;
+  }
+  .image1 {
+    padding-top: 100%;
+  }
+  .button button {
+    width: 100px;
+    height: auto;
+    font-size: 0.5rem;
+  }
+}
+@media screen and (max-width: 280px) {
+  .navbar .logo {
+    font-size: 1rem;
+  }
+  .dropdown_menu.open {
+    font-size: 1rem;
+  }
+  .image1 {
+    padding-top: 100%;
+  }
+  .content {
+    padding-top: 220%;
+  }
+  .navbar .icons a {
+    height: 1.5rem;
+    line-height: 1.5rem;
+    width: 1.5rem;
+    font-size: 0.8rem;
+  }
+  .navbar .toggle_btn {
+    height: 1.5rem;
+    line-height: 1.5rem;
+    width: 1.5rem;
+    font-size: 0.8rem;
+  }
+  .dropdown_menu.open {
+    font-size: 0.8rem;
+  }
+  .image1 {
+    padding-top: 140%;
+  }
+  .button button {
+    width: 100px;
+    height: auto;
+    font-size: 0.5rem;
   }
 }
