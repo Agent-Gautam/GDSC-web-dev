@@ -718,6 +718,7 @@ html {
   align-items: center;
   margin: 10px auto;
   row-gap: 10px;
+  margin-bottom: 50px;
 }
 
 .heado{
@@ -740,7 +741,7 @@ html {
 }
 .row{
   width: 100%;
-  height: 12rem;
+  height: 20rem;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -770,6 +771,15 @@ html {
 @media only screen and (max-width: 750px){
   .blogs{
     width: 90%;
+  }
+  .row{
+    height: 10rem;
+  }
+  .text .title{
+    font-size: 10px;
+  }
+  .text .author{
+    font-size: 10px;
   }
 }
 /* footer styles */
