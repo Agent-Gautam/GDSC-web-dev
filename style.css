@@ -798,8 +798,8 @@ footer .container .part2 p {
   margin-top: 10px;
 }
 footer .container .sec {
-
-  margin-bottom:40px;
+ margin-top: 20px;
+  margin-bottom: 20px;
   display: grid;
   grid-template-columns: repeat(4, 50px);
 }
