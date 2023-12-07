@@ -799,6 +799,7 @@ footer .container .part2 p {
 }
 footer .container .sec {
   margin-top: 20px;
+  margin-bottom:40px;
   display: grid;
   grid-template-columns: repeat(4, 50px);
 }
@@ -816,6 +817,35 @@ footer .container .sec a {
 footer .container .sec a i {
   color: #fff;
   font-size: 18px;
+}
+footer .container .sec a:hover{
+  background: seashell;
+  box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.0.05);
+}
+footer .container .sec a i:hover{
+  color: black;
+}
+.container3{
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.container3 .part1{
+  max-width: 600px;
+  position: relative;
+}
+.container3 .img1{
+  height: 400px;
+  width: 500px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 50px;
+}
+footer .container3 form i:hover{
+  background: seashell;
+  color: black;
 }
 footer .container .quicklinks ul li a {
   color: #555;
@@ -987,6 +1017,10 @@ input[type="text"] {
   }
 }
 @media screen and (max-width: 670px) {
+  .container3 .img1{
+    width: 200px;
+    height: 200px;
+  }
   .image1 {
     padding-top: 45%;
     display: block;
@@ -1001,6 +1035,9 @@ input[type="text"] {
   }
 }
 @media screen and (max-width: 540px) {
+  .container3 .img1{
+    display: none;
+  }
   .image1 {
     padding-top: 60%;
   }
@@ -1015,6 +1052,9 @@ input[type="text"] {
   }
 }
 @media screen and (max-width: 430px) {
+  .container3 .img1{
+    display: none;
+  }
   .navbar .logo {
     font-size: 1.8rem;
     padding-left: 0%;
@@ -1080,6 +1120,9 @@ input[type="text"] {
   }
 }
 @media screen and (max-width: 375px) {
+  .container3 .img1{
+    display: none;
+  }
   .navbar .logo {
     padding-left: 0%;
     font-size: 1.8rem;
@@ -1107,6 +1150,9 @@ input[type="text"] {
   }
 }
 @media screen and (max-width: 280px) {
+  .container3 .img1{
+    display: none;
+  }
   .navbar .logo {
     font-size: 1rem;
   }
