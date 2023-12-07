@@ -505,7 +505,6 @@ html {
 @media screen and (max-width: 480px) {
   /* section2 */
   .section2 {
-    margin-left: 100px;
     flex-direction: column;
     align-items: center;
     margin-bottom: 6rem;
@@ -527,7 +526,6 @@ html {
   .section3 {
     flex-direction: column;
     align-items: center;
-    margin-left: 100px;
     margin-top: 8rem;
     margin-bottom: 6rem;
   }
@@ -544,7 +542,7 @@ html {
 
   /* section4 */
   .section4 {
-    margin-left: 100px;
+  
     flex-direction: column;
     margin-bottom: 6rem;
   }
@@ -573,7 +571,6 @@ html {
   .section5 {
     flex-direction: column;
     height: auto;
-    margin-left: 50px;
     padding: 2rem 0;
     background: rgba(239, 235, 206, 0.3);
     margin-bottom: 4rem;
@@ -788,7 +785,7 @@ footer {
   width: 100%;
   height: auto;
   padding: 50px 100px;
-  background-color: rgb(254 243 199);
+  background-color: #b8bc86;
 }
 footer .container .main {
   width: 100%;
@@ -831,7 +828,7 @@ footer .container .quicklinks ul li a {
   color: #555;
   text-align: center;
   padding: 20px 100px 30px;
-  background-color: rgb(254 243 199);
+  background-color: #b8bc86;
 }
 .line2 hr {
   border: 3px solid #d3d3dd;
