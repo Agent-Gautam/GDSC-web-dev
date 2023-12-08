@@ -607,6 +607,7 @@ html {
   align-items: center;
   margin: 50px auto;
   padding-bottom: 35px;
+  gap: 80%;
 }
 .previous,
 .next {
@@ -619,13 +620,15 @@ html {
   color: ghostwhite;
 }
 .card {
-  display: none;
+  position: absolute;
+  opacity : 0;
   height: 100%;
   width: 80%;
   padding: 0px 30px;
+  transition: all 0.5s ease-in-out;
 }
 .testimonials :nth-child(2) {
-  display: block;
+  opacity: 1;
 }
 .indicators {
   width: 100px;
