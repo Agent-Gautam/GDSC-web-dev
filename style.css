@@ -102,7 +102,7 @@ html {
   display: flex;
 }
 .content {
-  width: 100%;
+  width: 90%;
   position: absolute;
   top: 50%;
   left: 10%;
@@ -891,8 +891,8 @@ input[type="text"] {
     display: none;
   }
   .image1 {
-    padding-top: -10%;
-    padding-left: 40%;
+    padding-top: 20%;
+    padding-left: 25%;
     padding-bottom: 30%;
     display: block;
     position: absolute;
@@ -949,7 +949,8 @@ input[type="text"] {
 }
 @media (max-width: 991px) {
   .content {
-    padding-left: 16%;
+    padding-left: 12%;
+    padding-top: 90%;
   }
   footer {
     padding: 40px;
@@ -970,7 +971,7 @@ input[type="text"] {
     padding-top: 30%;
   }
   .image1 img {
-    width: 40%;
+    width: 70%;
   }
 }
 @media (max-width: 768px) {
@@ -986,7 +987,7 @@ input[type="text"] {
     width: 100%;
   }
   .content {
-    padding-top: 80%;
+    padding-top: 90%;
     text-align: center;
     justify-content: center;
     padding-left: 5%;
