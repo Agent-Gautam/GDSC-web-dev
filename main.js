@@ -57,15 +57,6 @@ document.addEventListener("DOMContentLoaded", function () {
 // recent blogs
 let row = document.querySelector(".row2");
 document.querySelector(".morelink").addEventListener("click",function(){
-    row.style.transform = "translateY(20rem)";
-    document.querySelector(".rows").style.height = "40rem";
+  document.querySelector(".rows").style.height = window.innerWidth > 750 ? "40rem" : "20rem"
+  row.style.transform = window.innerWidth > 750 ? "translateY(20rem)" : "translateY(12rem)";
 })
-
-// transition animation for sec2-card
-let sec2cards = document.querySelectorAll(".sec2-card");
-let cursec = 0;
-setInterval(function(){
-    sec2cards[cursec].style.backgroundColor = "transparent";
-    cursec = cursec == sec2cards.length - 1 ? 1 : cursec + 1;
-    sec2cards[cursec].style.backgroundColor = "rgba(239, 235, 206, 0.5)";
-},2000)
